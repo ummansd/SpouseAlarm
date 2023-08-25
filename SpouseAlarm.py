@@ -1,7 +1,6 @@
 import pystray
 import os, sys, reg
 
-from winreg import CreateKey, SetValueEx, QueryValueEx
 from time import sleep
 from pystray import Menu, MenuItem
 from PIL import Image

@@ -3,6 +3,6 @@
 
 빌드시 pyinstaller 설치 후
 
-pyinstaller SpouseAlarm.py -w -F --icon=./icon/icon.ico --add-data="icon/*;icon"
+pyinstaller SpouseAlarm.py -w -F --icon=./icon/icon.ico --add-data="icon/*;icon" --hidden-import plyer.platforms.win.notification
 
 실행
